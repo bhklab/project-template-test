@@ -17,9 +17,9 @@ logger = logging.getLogger(__name__)
 
 
 ```python
-from damply import dirs
+from damply import dirs as dmpdirs
 
-print(dirs)
+print(dmpdirs)
 ```
 
     DamplyDirs<Structure: NESTED>
@@ -34,16 +34,16 @@ print(dirs)
     SCRIPTS      : └── workflow/scripts
 
 
-## Use the DMP `dirs` object directly
+## Use the DMP `dmpdirs` object directly
 
 
 ```python
-print(f'{dirs.RAWDATA=} has {len(list(dirs.RAWDATA.glob("*")))} files')
-print(f'{dirs.PROCDATA=} has {len(list(dirs.PROCDATA.glob("*")))} files')
-print(f'{dirs.SCRIPTS=} has {len(list(dirs.SCRIPTS.glob("*")))} files')
+print(f'{dmpdirs.RAWDATA=} has {len(list(dmpdirs.RAWDATA.glob("*")))} files')
+print(f'{dmpdirs.PROCDATA=} has {len(list(dmpdirs.PROCDATA.glob("*")))} files')
+print(f'{dmpdirs.SCRIPTS=} has {len(list(dmpdirs.SCRIPTS.glob("*")))} files')
 ```
 
-    dirs.RAWDATA=PosixPath('/Users/bhklab/TRASH/test-project-template/data/rawdata') has 1 files
-    dirs.PROCDATA=PosixPath('/Users/bhklab/TRASH/test-project-template/data/procdata') has 1 files
-    dirs.SCRIPTS=PosixPath('/Users/bhklab/TRASH/test-project-template/workflow/scripts') has 2 files
+    dmpdirs.RAWDATA=PosixPath('/Users/bhklab/TRASH/test-project-template/data/rawdata') has 1 files
+    dmpdirs.PROCDATA=PosixPath('/Users/bhklab/TRASH/test-project-template/data/procdata') has 1 files
+    dmpdirs.SCRIPTS=PosixPath('/Users/bhklab/TRASH/test-project-template/workflow/scripts') has 2 files
 
