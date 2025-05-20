@@ -1,0 +1,5 @@
+DATASET_NAME: "BHK-Snakemake"
+
+MODALITIES: 
+  - "image"
+  - "text"

@@ -31,6 +31,7 @@ ipython = "*"
 ipykernel = "*"
 jupyterlab = "*"
 pip = "*"
+snakemake = ">=9.4.0,<10"
 
 [pypi-dependencies]
 damply = ">=0.10.0, <0.11"
