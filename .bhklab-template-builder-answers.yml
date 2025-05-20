@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier
+_commit: v0.9.0
+_src_path: gh:bhklab/bhklab-project-template
+additional_authors_raw: Katy Scott, Julia Ngyugen, Matthew Boccolon
+author_email: bhklab.jermiahjoseph@gmail.com
+author_full_name: Jermiah Joseph
+github_username: jjjermiah
+has_additional_authors: true
+project_description: An example of exactly what the project template does!
+project_name: Project Template Test
+project_slug: project-template-test
+publish_to_github: true
+python_version: '3.11'
+repo_location: bhklab
